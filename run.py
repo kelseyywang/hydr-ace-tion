@@ -273,7 +273,6 @@ def play_game():
     present_options = False
     face_card_rank = 1
     hands = {}
-    random.seed(4) # For consistent testing purposes. Remove for 'truly' random experience.
     input('Press Enter to start the game!')
     while len(curr_deck) > 1:
         clear_window()
